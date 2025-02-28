@@ -12,10 +12,10 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto 
 
 ## 🛠️ Tecnologías utilizadas
 
-- **HTML** para la estructura del proyecto.
-- **CSS** para el diseño y la adaptación a móviles.
-- **JavaScript** para la lógica de encriptación y desencriptación.
-- **SweetAlert** para mejorar la experiencia de usuario con alertas interactivas.
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) **HTML** para la estructura del proyecto.
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) **CSS** para el diseño y la adaptación a móviles.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **JavaScript** para la lógica de encriptación y desencriptación.
+- ![SweetAlert](https://img.shields.io/badge/SweetAlert-FF5733?style=flat&logo=javascript&logoColor=white) **SweetAlert** para mejorar la experiencia de usuario con alertas interactivas.
 
 ## 📂 Estructura del proyecto
 
@@ -40,19 +40,11 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto 
 - **Versión de escritorio:** Se muestra el área de encriptado y el resultado en una caja lateral.
 - **Versión móvil:** Se optimiza la disposición de los elementos para mayor accesibilidad.
 
-## 🎨 Capturas de pantalla
-
-🔜 Próximamente...
-
 ## 📌 Instalación y uso
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/encriptador-texto.git
+   git clone https://github.com/CriXDZ/Encriptador-de-texto.git
    ```
 2. Abrir el archivo `index.html` en un navegador.
 3. ¡Listo para encriptar y desencriptar texto!
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT - ¡Siéntete libre de usarlo y mejorarlo! 😊

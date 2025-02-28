@@ -47,4 +47,3 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto 
    git clone https://github.com/CriXDZ/Encriptador-de-texto.git
    ```
 2. Abrir el archivo `index.html` en un navegador.
-3. ¡Listo para encriptar y desencriptar texto!

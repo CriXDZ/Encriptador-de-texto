@@ -151,33 +151,41 @@
   top: 15%;
 }
 
-/* Responsive design - Componentes */
-@media (max-width: 768px) {
-  .encriptar {
-    width: 100%;
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
   }
 
   .texto {
-    width: 80%;
-    height: 60%;
-    left: 10%;
+    width: 82%;
+    height: auto;
+    left: 5%;
     top: 5%;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   }
 
   .terminos {
-    width: 80%;
-    left: 10%;
-    top: 67%;
-  }
-
-  .terminos p {
-    font-size: 16px;
+    width: 90%;
+    left: 5%;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .botones {
-    width: 80%;
-    left: 10%;
-    top: 70%;
+    width: 90%;
+    left: 5%;
+    top: 60%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .btn-encriptar,
@@ -187,25 +195,41 @@
   }
 
   .btn-copiar {
-    width: 48%;
+    width: 50%;
+    margin-top: 10px;
     border-radius: 16px;
   }
 
   .encriptado {
     width: 80%;
-    height: 15%;
-    left: 10%;
-    top: 80%;
+    height: auto;
+    left: 5%;
+    top: 3000px;
+    top: 70%;
+    padding: 20px;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   }
 
   .mensaje-encriptado {
     width: 100%;
-    top: 5%;
+    top: auto;
+    padding: 10px;
+  }
+
+  .mensaje-encriptado h2 {
+    font-size: 20px;
+  }
+
+  .mensaje-encriptado p {
+    font-size: 14px;
   }
 
   .encriptado img {
-    top: 0;
     display: none;
-    visibility: hidden;
   }
 }

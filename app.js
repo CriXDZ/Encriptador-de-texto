@@ -110,7 +110,7 @@ const procesarTexto = (accion) => {
   if (!textoProcesado) return; // Evita actualizar la interfaz si hay error al desencriptar
 
   const imagen =
-    accion === "encriptar" ? "./img/encriptado.jpg" : "./img/desencriptado.jpg";
+    accion === "encriptar" ? "./img/encriptado.png" : "./img/desencriptado.png";
   const titulo =
     accion === "encriptar"
       ? "Texto encriptado con éxito"

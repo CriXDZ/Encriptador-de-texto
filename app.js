@@ -5,7 +5,8 @@ const parrafo = document.getElementById("parrafo");
 const muñeco = document.getElementById("muñeco");
 
 // Validación de texto original (solo antes de encriptar)
-const validarTexto = (texto) => /^[a-z\s]+$/.test(texto.trim());
+// Ahora se permiten letras minúsculas (incluyendo ñ), números y espacios
+const validarTexto = (texto) => /^[a-z0-9ñ\s]+$/.test(texto.trim());
 
 // Diccionario de sustitución para encriptar/desencriptar (Mejorado)
 const reemplazos = {
@@ -44,6 +45,8 @@ const reemplazosInverso = Object.fromEntries(
 );
 
 // **1️⃣ Encriptación: Sustitución de caracteres**
+// Solo se reemplazan los caracteres que están en el diccionario (a-z y espacio),
+// dejando intactos la ñ y los dígitos.
 const encriptarTexto = (texto) =>
   texto.replace(/[a-z\s]/g, (letra) => reemplazos[letra] || letra);
 
@@ -93,10 +96,11 @@ const procesarTexto = (accion) => {
     return;
   }
 
+  // Ahora se permite el uso de ñ y dígitos, pero se siguen rechazando acentos y mayúsculas.
   if (accion === "encriptar" && !validarTexto(texto)) {
     swal(
       "Ooops!",
-      "Solo se permiten letras minúsculas y sin acentos",
+      "Solo se permiten letras minúsculas (incluida la ñ), números y espacios, sin acentos",
       "warning"
     );
     return;

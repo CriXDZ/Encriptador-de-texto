@@ -9,7 +9,6 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
 - [ Estructura del Proyecto](#-estructura-del-proyecto)
 - [ Cómo Ejecutar la Aplicación](#-cómo-ejecutar-la-aplicación)
 - [ Detalles del Código](#-detalles-del-código)
-- [ Licencia](#-licencia)
 
 ## 💡 Características
 
@@ -57,8 +56,6 @@ Sigue estos pasos para ejecutar la aplicación en tu máquina:
    ```bash
    git clone https://github.com/CriXDZ/Encriptador-de-texto.git
    ```
-
-   > **Nota:** Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón **Code** en el repositorio de GitHub y seleccionando **Download ZIP**.
 
 2. **Navega a la carpeta del proyecto:**
 
@@ -109,6 +106,4 @@ Sigue estos pasos para ejecutar la aplicación en tu máquina:
 - Define el nombre, la descripción, los íconos, colores de tema, fondo y orientación.
 - Permite que la aplicación se instale en dispositivos móviles con una experiencia nativa.
 
-## 📌 Licencia
-
-Este proyecto es de uso libre.
+---

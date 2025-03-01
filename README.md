@@ -62,8 +62,7 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
    cd Encriptador-de-texto
    ```
 
-[!NOTE]
-Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón Code en el repositorio de GitHub y seleccionando Download ZIP.
+> **Nota:** Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón **Code** en el repositorio de GitHub y seleccionando **Download ZIP**.
 
 3. **Abre `index.html`:**
    Puedes abrir el archivo `index.html` directamente en tu navegador para probar la aplicación.
@@ -73,8 +72,7 @@ Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puede
 
 ## 📝 Detalles del Código
 
-[!NOTE]
-Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón Code en el repositorio de GitHub y seleccionando Download ZIP.
+> [!NOTE]
 
 ### index.html
 

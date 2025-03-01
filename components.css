@@ -178,7 +178,18 @@
 /* ============================== */
 @media (max-width: 480px) {
   .logo {
-    display: none;
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 36px;
+    height: 36px;
+    border-radius: 0;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
   }
 
   .container {
@@ -188,29 +199,32 @@
     justify-content: start;
   }
 
-  .texto {
-    width: 90%;
-    height: 45%;
+  /* Agrupamos propiedades comunes: left y width */
+  .texto,
+  .terminos,
+  .botones,
+  .encriptado {
     left: 5%;
+    width: 90%;
+  }
+
+  /* Input de texto (.texto) */
+  .texto {
+    height: 45%;
     top: 5%;
     font-size: 16px;
     padding: 15px;
     border-radius: 16px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   }
-
-  .texto::placeholder {
-    font-size: 16px;
-  }
-
+  .texto::placeholder,
   .texto:focus,
   .texto:active {
     font-size: 16px;
   }
 
+  /* Sección de Términos (.terminos) */
   .terminos {
-    width: 90%;
-    left: 5%;
     top: 55%;
     display: flex;
     flex-direction: column;
@@ -218,14 +232,14 @@
     justify-content: center;
   }
 
+  /* Sección de Botones (.botones) */
   .botones {
-    width: 90%;
-    left: 5%;
     top: 60%;
     display: flex;
     justify-content: space-between;
   }
 
+  /* Botones individuales */
   .btn-encriptar,
   .btn-desencriptar {
     width: 48%;
@@ -237,17 +251,15 @@
     margin-top: 10px;
     border-radius: 16px;
   }
-
-  .btn-copiar:hover,
+  .btn-encriptar:hover,
   .btn-desencriptar:hover,
-  .btn-encriptar:hover {
+  .btn-copiar:hover {
     transform: none;
   }
 
+  /* Contenedor Encriptado (.encriptado) */
   .encriptado {
-    width: 90%;
     height: 25%;
-    left: 5%;
     top: 70%;
     padding: 20px;
     min-height: 160px;
@@ -258,21 +270,21 @@
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   }
 
+  /* Sección del mensaje encriptado */
   .mensaje-encriptado {
     width: 95%;
     height: 95%;
     top: auto;
     padding: 10px;
   }
-
   .mensaje-encriptado h2 {
     font-size: 20px;
   }
-
   .mensaje-encriptado p {
     font-size: 14px;
   }
 
+  /* Imagen dentro de .encriptado */
   .encriptado img {
     display: none;
   }

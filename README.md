@@ -58,12 +58,12 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
 
 2. **Navega a la carpeta del proyecto:**
 
-```
+   ```bash
    cd Encriptador-de-texto
-```
+   ```
 
-> [!NOTA]
-> Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón Code en el repositorio de GitHub y seleccionando Download ZIP.
+[!NOTE]
+Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón Code en el repositorio de GitHub y seleccionando Download ZIP.
 
 3. **Abre `index.html`:**
    Puedes abrir el archivo `index.html` directamente en tu navegador para probar la aplicación.
@@ -72,6 +72,9 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
    Para una mejor experiencia y para probar la funcionalidad PWA, ejecuta un servidor local (por ejemplo, usando [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) o utilizando `http-server` con Node.js).
 
 ## 📝 Detalles del Código
+
+[!NOTE]
+Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón Code en el repositorio de GitHub y seleccionando Download ZIP.
 
 ### index.html
 

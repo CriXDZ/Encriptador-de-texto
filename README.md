@@ -1,17 +1,17 @@
 # Encriptador de Texto
 
-Una aplicación web simple para encriptar y desencriptar texto usando un algoritmo de sustitución personalizado. La aplicación está diseñada como una PWA (Progressive Web App) y está optimizada tanto para escritorio como para dispositivos móviles. 🚀
+Una aplicación web simple para encriptar y desencriptar texto usando un algoritmo de sustitución personalizado. La aplicación está diseñada como una PWA (Progressive Web App) y está optimizada tanto para escritorio como para dispositivos móviles.
 
 ## Tabla de Contenidos
 
-- [🚀 Características](#-características)
-- [🛠️ Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [📂 Estructura del Proyecto](#-estructura-del-proyecto)
-- [🚀 Cómo Ejecutar la Aplicación](#-cómo-ejecutar-la-aplicación)
-- [📝 Detalles del Código](#-detalles-del-código)
-- [📌 Licencia](#-licencia)
+- [ Características](#-características)
+- [ Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [ Estructura del Proyecto](#-estructura-del-proyecto)
+- [ Cómo Ejecutar la Aplicación](#-cómo-ejecutar-la-aplicación)
+- [ Detalles del Código](#-detalles-del-código)
+- [ Licencia](#-licencia)
 
-## 🚀 Características
+## 💡 Características
 
 - **Encriptación/Desencriptación de Texto:**
   Convierte el texto ingresado utilizando un diccionario de sustitución único para cada carácter (solo acepta letras minúsculas sin acentos).
@@ -22,16 +22,18 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
 - **Progressive Web App (PWA):**
   Incluye un archivo `site.webmanifest` que permite instalar la aplicación en dispositivos compatibles.
 
-- **Alertas Amigables:**
+- **Alertas:**
   Utiliza [SweetAlert](https://sweetalert.js.org/) para mostrar mensajes de error, advertencia y confirmación en la interfaz.
 
 ## 🛠️ Tecnologías Utilizadas
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) **HTML5**
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) **CSS3**
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **JavaScript**
-- ![PWA](https://img.shields.io/badge/PWA-0A3871?style=flat&logo=google-chrome&logoColor=white) **Progressive Web App**
-- ![SweetAlert](https://img.shields.io/badge/SweetAlert-FF5733?style=flat&logo=javascript&logoColor=white) **SweetAlert**
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/PWA-0A3871?style=for-the-badge&logo=google-chrome&logoColor=white" alt="PWA" />
+  <img src="https://img.shields.io/badge/SweetAlert-FF5733?style=for-the-badge&logo=sweetalert&logoColor=white" alt="SweetAlert" />
+</p>
 
 ## 📂 Estructura del Proyecto
 
@@ -42,7 +44,7 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
 ├── 📄 components.css    # Estilos de componentes.
 ├── 📄 base.css          # Estilos del proyecto.
 ├── 📄 app.js            # Lógica de encriptación y desencriptación.
-├── 📄 README.md         # Documentación del proyect.
+├── 📄 README.md         # Documentación del proyecto.
 └── 📄 site.webmanifest  # Configuración de la app para PWA.
 ```
 

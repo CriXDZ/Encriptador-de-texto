@@ -6,16 +6,7 @@
 
 Una aplicación web simple para encriptar y desencriptar texto usando un algoritmo de sustitución personalizado. La aplicación está diseñada como una PWA (Progressive Web App) y está optimizada tanto para escritorio como para dispositivos móviles.
 
-<table width="100%">
-  <tr>
-    <td>
-      <h2>Tabla de Contenidos</h2>
-    </td>
-    <td align="right">
-      <img src="https://github.com/CriXDZ.png" alt="Perfil de GitHub" width="80" />
-    </td>
-  </tr>
-</table>
+## Tabla de Contenidos
 
 - [ Características](#-características)
 - [ Tecnologías Utilizadas](#-tecnologías-utilizadas)

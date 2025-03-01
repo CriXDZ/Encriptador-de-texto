@@ -1,114 +1,145 @@
-/* Componentes específicos */
+:root {
+  --primary-color: #0a3871;
+  --secondary-color: #d8dfe8;
+  --text-color: #495057;
+  --secondary-text-color: #ffffff;
+  --font-family: "Inter", sans-serif;
+  --default-radius: 16px;
+  --desktop-btn-radius: 24px;
+}
+
+/* ======================= */
+/* Componentes Específicos */
+/* ======================= */
+
+/* --- Estilo de logo (.logo) --- */
+.logo {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* --- Input de texto (.texto) --- */
 .texto {
   position: absolute;
-  width: 42%;
+  inset: 15% auto auto 12%;
+  width: 39%;
   height: 60%;
-  left: 12%;
-  top: 15%;
-  border: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 150%;
-  background-color: #f3f5fc;
+  padding: 10px;
+  border-radius: var(--default-radius);
+  font: normal 400 32px/150% var(--font-family);
+  background: linear-gradient(180deg, #fff 0%, #f9f9f9 100%);
+  resize: none;
 }
 
 .texto::placeholder {
-  color: #0a3871;
+  color: var(--primary-color);
+  font-size: 24px;
 }
 
 .texto:focus,
 .texto:active {
   border: none;
   outline: none;
+  font-size: 24px;
 }
 
+/* --- Sección de Términos (.terminos) --- */
 .terminos {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 8px;
   position: absolute;
-  width: 80%;
-  left: 12%;
-  top: 80%;
+  inset: 82% auto auto 12%;
+  width: 40%;
 }
 
 .terminos p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-  color: #495057;
+  font: 400 12px/150% var(--font-family);
+  color: var(--secondary-text-color);
   opacity: 0.8;
 }
 
+/* --- Sección de Botones (.botones y botones individuales) --- */
 .botones {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   padding: 1% 0;
   position: absolute;
-  width: 80%;
-  left: 12%;
-  top: 82%;
+  inset: 85% auto auto 12%;
+  width: 41%;
+  gap: 20px;
 }
 
+/* Estilos comunes para los botones */
 .btn-encriptar,
 .btn-desencriptar,
 .btn-copiar {
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 2%;
   gap: 8px;
-  width: 25%;
-  border-radius: 24px;
-  font-family: "Inter";
-  font-size: 18px;
-  line-height: 19px;
-  text-align: center;
+  width: 45%;
+  margin: auto;
+  border-radius: var(--desktop-btn-radius);
+  font: 18px/19px var(--font-family);
   transition: all 0.3s ease;
 }
 
-.btn-encriptar {
-  background-color: #0a3871;
+/* Ajuste específico para encriptar desencriptar y copiar */
+.btn-encriptar,
+.btn-copiar {
+  background: var(--primary-color);
   color: #fff;
 }
 
 .btn-desencriptar {
-  background: #d8dfe8;
-  border: 1px solid #0a3871;
-  color: #0a3871;
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-copiar {
-  background: #0a3871;
-  color: #fff;
   margin-top: 10px;
+  width: 25%;
 }
 
-.btn-desencriptar:hover,
+/* Estilos de hover para los botones */
 .btn-encriptar:hover,
+.btn-desencriptar:hover,
 .btn-copiar:hover {
   transform: scale(1.05);
 }
 
+/* --- Contenedor Encriptado (.encriptado) --- */
 .encriptado {
   display: flex;
   justify-content: center;
   position: absolute;
   width: 30%;
   height: 90%;
-  left: 60%;
+  left: 63%;
   top: 5%;
-  background: #fff;
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(180deg, #fff 0%, #f9f9f9 100%);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
 }
 
+.encriptado:hover {
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Sección del mensaje encriptado */
 .mensaje-encriptado {
   display: flex;
   flex-direction: column;
@@ -117,33 +148,24 @@
   padding: 1%;
   gap: 16px;
   position: absolute;
-  width: 100%;
+  width: 90%;
   top: 65%;
   text-align: center;
 }
 
 .mensaje-encriptado h2 {
   width: 60%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 120%;
-  text-align: center;
+  font: 700 24px/120% var(--font-family);
   color: #343a40;
 }
 
 .mensaje-encriptado p {
   width: 80%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  text-align: center;
-  color: #495057;
+  font: 400 16px/150% var(--font-family);
+  color: var(--text-color);
 }
 
+/* Imagen dentro de .encriptado */
 .encriptado img {
   position: absolute;
   width: 80%;
@@ -151,7 +173,14 @@
   top: 15%;
 }
 
+/* ============================== */
+/* Estilos Responsive (Móviles) */
+/* ============================== */
 @media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -204,7 +233,6 @@
     width: 80%;
     height: auto;
     left: 5%;
-    top: 3000px;
     top: 70%;
     padding: 20px;
     min-height: 160px;

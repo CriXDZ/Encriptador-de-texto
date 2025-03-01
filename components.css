@@ -35,7 +35,7 @@
   height: 60%;
   padding: 10px;
   border-radius: var(--default-radius);
-  font: normal 400 32px/150% var(--font-family);
+  font: normal 400 24px/150% var(--font-family);
   background: linear-gradient(180deg, #fff 0%, #f9f9f9 100%);
   resize: none;
 }
@@ -74,7 +74,7 @@
   align-items: flex-start;
   padding: 1% 0;
   position: absolute;
-  inset: 85% auto auto 12%;
+  inset: 85% auto auto 11%;
   width: 41%;
   gap: 20px;
 }
@@ -189,14 +189,23 @@
   }
 
   .texto {
-    width: 82%;
-    height: auto;
+    width: 90%;
+    height: 45%;
     left: 5%;
     top: 5%;
-    font-size: 20px;
+    font-size: 16px;
     padding: 15px;
     border-radius: 16px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  }
+
+  .texto::placeholder {
+    font-size: 16px;
+  }
+
+  .texto:focus,
+  .texto:active {
+    font-size: 16px;
   }
 
   .terminos {
@@ -229,9 +238,15 @@
     border-radius: 16px;
   }
 
+  .btn-copiar:hover,
+  .btn-desencriptar:hover,
+  .btn-encriptar:hover {
+    transform: none;
+  }
+
   .encriptado {
-    width: 80%;
-    height: auto;
+    width: 90%;
+    height: 25%;
     left: 5%;
     top: 70%;
     padding: 20px;
@@ -244,7 +259,8 @@
   }
 
   .mensaje-encriptado {
-    width: 100%;
+    width: 95%;
+    height: 95%;
     top: auto;
     padding: 10px;
   }

@@ -1,7 +1,10 @@
 /* Estilos base y layout principal */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* Mejora para unificar el box model */
 }
 
 html,

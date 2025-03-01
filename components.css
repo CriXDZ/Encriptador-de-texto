@@ -95,7 +95,7 @@
   transition: all 0.3s ease;
 }
 
-/* Ajuste específico para encriptar desencriptar y copiar */
+/* Ajuste específico para encriptar, desencriptar y copiar */
 .btn-encriptar,
 .btn-copiar {
   background: var(--primary-color);

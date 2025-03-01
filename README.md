@@ -39,13 +39,13 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
 
 ```
 📦 Encriptador de Texto
-├── 📁 img               # Imágenes y favicon.
-├── 📄 index.html        # Página principal.
-├── 📄 components.css    # Estilos de componentes.
-├── 📄 base.css          # Estilos del proyecto.
-├── 📄 app.js            # Lógica de encriptación y desencriptación.
-├── 📄 README.md         # Documentación del proyecto.
-└── 📄 site.webmanifest  # Configuración de la app para PWA.
+├── 📁 img                    # Recursos gráficos: imágenes, favicon, etc.
+├── 📄 index.html             # Página principal de la aplicación.
+├── 📄 components.css         # Estilos específicos de los componentes.
+├── 📄 base.css               # Estilos base y configuración del layout.
+├── 📄 app.js                 # Lógica de encriptación y desencriptación.
+├── 📄 site.webmanifest       # Configuración para la Progressive Web App (PWA).
+└── 📄 README.md              # Documentación y guía del proyecto.
 ```
 
 ## 🚀 Cómo Ejecutar la Aplicación
@@ -54,13 +54,21 @@ Una aplicación web simple para encriptar y desencriptar texto usando un algorit
 
    ```bash
    git clone https://github.com/CriXDZ/Encriptador-de-texto.git
-
    ```
 
-2. **Abre `index.html`:**
+2. **Navega a la carpeta del proyecto:**
+
+```
+   cd Encriptador-de-texto
+```
+
+> [!NOTA]
+> Asegúrate de tener Git instalado en tu sistema. Si prefieres no usar Git, puedes descargar el proyecto como un archivo ZIP haciendo clic en el botón Code en el repositorio de GitHub y seleccionando Download ZIP.
+
+3. **Abre `index.html`:**
    Puedes abrir el archivo `index.html` directamente en tu navegador para probar la aplicación.
 
-3. **Servidor Local (opcional):**
+4. **Servidor Local (opcional):**
    Para una mejor experiencia y para probar la funcionalidad PWA, ejecuta un servidor local (por ejemplo, usando [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) o utilizando `http-server` con Node.js).
 
 ## 📝 Detalles del Código
